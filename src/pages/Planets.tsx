@@ -15,8 +15,6 @@ const Planets: FC<Props> = ({ getPlanets }) => {
     setPlanets([...planets, planet])
   };
 
-  console.log(planets, 'dsada')
-
   return (
     <>
       <h4 className="text-2xl font-thin mb-4">Agregar y mantener planetas</h4>
